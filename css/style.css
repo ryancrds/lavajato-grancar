@@ -146,13 +146,6 @@ a:focus {
 /**********************************/
 /********** Top Bar CSS ***********/
 /**********************************/
-.top-bar {
-    position: relative;
-    height: 75px;
-    display: flex;
-    align-items: center;
-    background: #ffffff;
-}
 
 .top-bar .logo {
     text-align: left;
@@ -160,6 +153,7 @@ a:focus {
 }
 
 .top-bar .logo h1 {
+    padding-right: 400px;
     margin: -4px 0 0 0;
     color: #2f23da;
     font-size: 50px;
@@ -170,7 +164,7 @@ a:focus {
 }
 
 .top-bar .logo h1 span {
-    color: #000000;
+    color: #ffffff;
 }
 
 .top-bar .logo img {
@@ -228,7 +222,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #000000;
+    background: #1f212c;
 }
 
 .nav-bar.nav-sticky {
@@ -242,7 +236,7 @@ a:focus {
 
 .nav-bar .navbar {
     padding: 20px 0;
-    background: #000000 !important;
+    background: #1f212c !important;
     transition: .3s;
 }
 
@@ -273,7 +267,7 @@ a:focus {
 }
 
 .nav-bar .btn.btn-custom {
-    color: #000000;
+    color: #1f212c;
     background: #ffffff;
     box-shadow: inset 0 0 0 0 #2f23da;
 }
@@ -316,7 +310,6 @@ a:focus {
     width: 100%;
     min-height: 400px;
     background: #ffffff;
-    margin-bottom: 45px;
 }
 
 .carousel .container-fluid {
@@ -756,10 +749,9 @@ a:focus {
     position: relative;
     width: 100%;
     min-height: 400px;
-    margin: 45px 0;
     display: flex;
     align-items: center;
-    background: #000000;
+    background: #1f212c;
 }
 
 .facts .facts-item {
