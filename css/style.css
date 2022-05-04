@@ -267,9 +267,8 @@ a:focus {
 }
 
 .navbar-toggler {
-    margin-left: 360px;
+    margin-left: 86%;
     position: absolute;
-    bottom: auto;
 }
 
 .nav-bar .btn.btn-custom {
