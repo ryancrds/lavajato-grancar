@@ -6,6 +6,7 @@ body {
     font-weight: 400;
     background: #ffffff;
     font-family: 'Barlow', sans-serif;
+    width: 100%;
 }
 
 h1,
@@ -223,6 +224,7 @@ a:focus {
 .nav-bar {
     position: relative;
     background: #1f212c;
+    width: 100%;
 }
 
 .nav-bar.nav-sticky {
