@@ -266,6 +266,12 @@ a:focus {
     background: #f8f9fa;
 }
 
+.navbar-toggler {
+    margin-left: 360px;
+    position: absolute;
+    bottom: auto;
+}
+
 .nav-bar .btn.btn-custom {
     color: #1f212c;
     background: #ffffff;
